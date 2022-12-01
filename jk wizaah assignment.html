@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head> </head>
+
+<body>
+    <div class="main-conatiner">
+        <div class="specified-product-details">
+            <div class="product-img-container">
+                <img src="https://res.cloudinary.com/doyqonmls/image/upload/v1669088679/Rectangle_1_1_q8lyzt.png" class="product-img " />
+                <img src="https://res.cloudinary.com/doyqonmls/image/upload/v1669088754/Rectangle_2_ug2hx0.png" class="product-img" />
+                <img src="https://res.cloudinary.com/doyqonmls/image/upload/v1669089177/Rectangle_3_lwheiv.png" class="product-img" />
+                <img src="https://res.cloudinary.com/doyqonmls/image/upload/v1669089221/Rectangle_4_ose6jo.png" class="product-img" />
+
+            </div>
+            <div class="product-details-container">
+                <div class="product-details">
+                    <p class="quote">Clothing</p>
+                    <h1 class="product-name">RIBAINE LS TOP -CHOCLATE</h1>
+                    <p class="quote">$38.20</p>
+                    <p class="quote">inclusive of all taxes</p>
+                    <p class="description">Lorem Ipsum is simplly dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survivied not only five centuries, but aslo the leap into specimen book. It has survived not only five centuries,
+                        but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                </div>
+                <div class="size-container">
+                    <p class="label"> COLOR:<span class="color" id="selectedColor"> Brown </span></p>
+                    <div class="colors-container">
+                        <button class="button active" id="button1" onclick="changeBrownColorText()">
+                            <img class="color-icon" src="https://res.cloudinary.com/doyqonmls/image/upload/v1669091938/Ellipse_1_crlxwo.png" />
+                        </button>
+                        <button class="button" id="button2" onclick="changeGreenColorText()">
+                            <img class="color-icon" src="https://res.cloudinary.com/doyqonmls/image/upload/v1669092116/Ellipse_2_woaxnf.png" />
+                        </button>
+                        <button class="button" id="button3" onclick="changeVioletColorText()">
+                            <img class="color-icon" src="https://res.cloudinary.com/doyqonmls/image/upload/v1669092141/Ellipse_3_jib6as.png" />
+                        </button>
+                        <button class="button" id="button4" onclick="changeBlueColorText()">
+                            <img class="color-icon" src="https://res.cloudinary.com/doyqonmls/image/upload/v1669092154/Ellipse_4_ias4bt.png" />
+                        </button>
+
+                    </div>
+                </div>
+
+                <p class="label">Sizes: <span class="color" id="selectedSize">XS </span></p>
+                <div class="color-generator">
+                    <button class="size btn active" id="xs" onclick="onClickXs()">XS</button>
+                    <button class="size btn" id="s" onclick="onClickS()">S</button>
+                    <button class="size btn" id="m" onclick="onClickM()">M</button>
+                    <button class="size btn" id="xl" onclick="onClickXl()">XL</button>
+                </div>
+
+                <div class="buttons-container">
+                    <div class="add-to-cart-btn">
+                        <button class="decrement-btn" id="decrementButton" onclick="onDecrement()">-</button>
+                        <span class="space" id="totalCount">1</span>
+                        <button class="increment-btn" onclick="onIncrement()" id="incrementButton">+</button>
+                    </div>
+                    <div class="cart-btn">
+                        <button class="add-to-cart-btn-click" onclick="addToCart()">ADD TO CART</button>
+                    </div>
+                </div>
+                <button class="buy-now-btn">BUY NOW</button>
+                <div class="cart-details">
+                    <div class="img-con">
+                        <img src="https://res.cloudinary.com/doyqonmls/image/upload/v1669101843/Vector_1_myvihi.png" />
+                        <p class="cart-name">Materials</p>
+                    </div>
+                    <div class="img-con">
+                        <img src="https://res.cloudinary.com/doyqonmls/image/upload/v1669103254/Group_mtqvab.png" />
+                        <p class="cart-name">Shipping & Returns</p>
+                    </div>
+                    <div class="img-con">
+                        <img src="https://res.cloudinary.com/doyqonmls/image/upload/v1669102937/Vector_3_pymnth.png" />
+                        <p class="cart-name">Care guide</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="middle-section-container">
+            <h1 class="heading">THE PERFECT FIT OR YOUR MONEY BACK</h1>
+            <p class="description-middle">We understand that creating your custom size can feel daunting. But not to worry, itd actually quite easy and completely risk-free. If your;e not 100% happy with your fit, we'll remake your first shirt
+                from scretch free of charge or give money back</p>
+            <button class="info-btn">CREATE YOUR DESIGN</button>
+        </div>
+        <h1 class="heading-bottom-sec">PRODUCT FEATURES</h1>
+        <div class="bottom-sec-container">
+            <div class="product-features-container">
+                <img src="https://res.cloudinary.com/doyqonmls/image/upload/v1669105775/Rectangle_20_zyampt.png" class="bottom-sec-img" />
+                <p class="bottom-sec-product-name">TAB FRONT WITH BUTTON</p>
+                <p class="bottom-sec-product-desc">Fashion to me has become disposable; i wanted to get back to craft, to clothes that could lost.</p>
+            </div>
+            <div class="product-features-container">
+                <img src="https://res.cloudinary.com/doyqonmls/image/upload/v1669106269/Rectangle_21_dplgrp.png" class="bottom-sec-img" />
+                <p class="bottom-sec-product-name">CARBON FOOTPRINT</p>
+                <p class="bottom-sec-product-desc">Never in the history of the world have women been more in control of their destiny.</p>
+            </div>
+            <div class="product-features-container">
+                <img src="https://res.cloudinary.com/doyqonmls/image/upload/v1669106307/Rectangle_22_x9td8b.png" class="bottom-sec-img" />
+                <p class="bottom-sec-product-name">PROVENANCE JOURNEY</p>
+                <p class="bottom-sec-product-desc">Fashion to me has become disposable; i wanted to get back to craft, to clothes that could lost.</p>
+            </div>
+            <div class="product-features-container">
+                <img src="https://res.cloudinary.com/doyqonmls/image/upload/v1669106339/Rectangle_23_hfgmgl.png" class="bottom-sec-img" />
+                <p class="bottom-sec-product-name">MADE IN PORTUGAL</p>
+                <p class="bottom-sec-product-desc">Never in the history of the world have women been more in control of their destiny.</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
